@@ -79,3 +79,4 @@ cd pacman-java
   <li><em>Run the game: </em>java App</li>
 </ul>
 <br>
+<image url = "./gamePausedss">
