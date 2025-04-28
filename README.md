@@ -79,6 +79,6 @@ cd pacman-java
   <li><em>Run the game: </em>java App</li>
 </ul>
 <h3>Screen Shoot</h3>
-<img src ="gamePausedss">
+<img src ="./gamePausedss">
 
 
