@@ -78,5 +78,6 @@ cd pacman-java
   <li><em>Compile the project:</em> javac *.java</li>
   <li><em>Run the game: </em>java App</li>
 </ul>
-<br>
-<image url = "./gamePausedss">
+<h3>Screen Shoot</h3>
+![gamePausedss](https://github.com/user-attachments/assets/ce8ecbc2-0926-4d36-ae79-dece105f9805)
+
