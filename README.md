@@ -1,8 +1,9 @@
 <h1>PacMan Java</h1>
 <br>
-<p>A classic Pac-Man clone written in Java using the Swing framework for rendering. This project is a fully functional single-player of Pac-Man, featuring multiple levels, power pellets, ghosts, cherry bonuses, score tracking, life updating, and sound effects.</p>
+<p>A classic Pac-Man clone written in Java using the Swing framework for rendering.</p>
+<p> This project is a fully functional single-player of Pac-Man, featuring multiple levels, power pellets, ghosts, cherry bonuses, score tracking, life updating, and sound effects.</p>
 <br>
-<h3>Features</h3>
+<h2>Features</h2>
 <ul>
   <li>Classic Pac-Man gameplay with keyboard controls (Arrow keys)</li>
   <li>Ghosts with randomized movement and scared state</li>
@@ -13,25 +14,25 @@
   <li>Pause and restart functionality</li>
 </ul>
 <br>
-<h3>Game Mechanics</h3>
+<h2>Game Mechanics</h2>
 <ul>
-  <li>Movement: Use arrow keys to control Pac-Man's direction.</li>
-  <li>Power Pellets: Eating one puts ghosts into a "scared" mode (for 8 seconds).</li>
-  <li>Ghosts: If you collide with a scared ghost, it resets and you earn points. Otherwise, you lose a life.</li>
-  <li>Food: Small dots give 10 points each.</li>
-  <li>Cherries: Randomly placed; each gives 500 points.</li>
-  <li>Game Over: Happens when you lose all 3 lives. High score is retained until you restart the application.</li>
+  <li><em>Movement:</em> Use arrow keys to control Pac-Man's direction.</li>
+  <li><em>Power Pellets:</em> Eating one puts ghosts into a "scared" mode (for 8 seconds).</li>
+  <li><em>Ghosts:</em> If you collide with a scared ghost, it resets and you earn points. Otherwise, you lose a life.</li>
+  <li><em>Food:</em> Small dots give 10 points each.</li>
+  <li><em>Cherries:</em> Randomly placed; each gives 500 points.</li>
+  <li><em>Game Over:</em> Happens when you lose all 3 lives. High score is retained until you restart the application.</li>
 </ul>
 <br>
-<h3>Controls</h3>
+<h2>Controls</h2>
 <ul>
   <li> ↑ ↓ ← →: Move Pac-Man </li>
   <li> P: Pause/Unpause </li>
   <li> Any arrow key after game over: Restarts the game</li>
 </ul>
 <br>
-<h3>Assets</h3>
-<h5>Images used:</h5>
+<h2>Assets</h2>
+<h3>Images used:</h3>
 <ul>
   <li>pacmanUp.png, pacmanDown.png, pacmanLeft.png, pacmanRight.png</li>
   <li>blueGhost.png, orangeGhost.png, pinkGhost.png, redGhost.png</li>
@@ -40,25 +41,22 @@
   <li>powerFood.png</li>
   <li>cherry.png</li>
 </ul>
-<br>
-<h5>Sounds used:</h5>
+<h3>Sounds used:</h3>
 <ul>
-  <li>crunch1.wav: Food eaten</li>
-  <li>bigcrunch.wav: Cherry eaten</li>
-  <li>monsterbite.wav: Ghost eaten</li>
-  <li>lifelostgame.wav: Life lost</li>
-  <li>gameoversound.wav: Game over</li>
+  <li><em>crunch1.wav:</em> Food eaten</li>
+  <li><em>bigcrunch.wav:</em> Cherry eaten</li>
+  <li><em>monsterbite.wav:</em> Ghost eaten</li>
+  <li><em>lifelostgame.wav:</em> Life lost</li>
+  <li><em>gameoversound.wav:</em> Game over</li>
 </ul>
-<br>
-<h3>Code Structure</h3>
+<h2>Code Structure</h2>
 <ul>
   <li>PacMan.java: Main game logic, drawing, input handling, and state transitions</li>
   <li>App.java: Entry point to launch the game window</li>
   <li>Sound.java: Handles playing audio files</li>
 </ul>
-<br>
 <h3>Map Layout</h3>
-<h5>Maps are defined in a 2D string array:</h5>
+<h3>Maps are defined in a 2D string array:</h3>
 <ul>
   <li>'X': Wall</li>
   <li>'P': Pac-Man starting position</li>
@@ -66,7 +64,6 @@
   <li>' ': Food dot</li>
   <li>'O': Portal zones (for tunnel traversal)</li>
 </ul>
-<br>
 <h3>Getting Started</h3>
 <h4>Prerequisites</h4>
 <ul>
@@ -75,7 +72,10 @@
 </ul>
 <h4>Run Instructions</h4>
 <ul>
-  <li>Clone the repo:<br>git clone https://github.com/yourusername/pacman-java.git
+  <li><em>Clone the repo:</em>em><br>git clone https://github.com/yourusername/pacman-java.git
 cd pacman-java
 </li>
+  <li><em>Compile the project:</em> javac *.java</li>
+  <li><em>Run the game: </em>java App</li>
 </ul>
+<br>
