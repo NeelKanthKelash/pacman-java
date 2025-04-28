@@ -79,6 +79,6 @@ cd pacman-java
   <li><em>Run the game: </em>java App</li>
 </ul>
 <h3>Screen Shoot</h3>
-![Image](https://github.com/user-attachments/assets/59aa4c76-1769-400a-97f7-a03c05875a99)
+<img src = "https://github.com/user-attachments/assets/59aa4c76-1769-400a-97f7-a03c05875a99">
 
 
