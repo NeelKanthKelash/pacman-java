@@ -56,5 +56,26 @@
   <li>App.java: Entry point to launch the game window</li>
   <li>Sound.java: Handles playing audio files</li>
 </ul>
-
-
+<br>
+<h3>Map Layout</h3>
+<h5>Maps are defined in a 2D string array:</h5>
+<ul>
+  <li>'X': Wall</li>
+  <li>'P': Pac-Man starting position</li>
+  <li>'b', 'o', 'p', 'r': Ghosts (Blue, Orange, Pink, Red)</li>
+  <li>' ': Food dot</li>
+  <li>'O': Portal zones (for tunnel traversal)</li>
+</ul>
+<br>
+<h3>Getting Started</h3>
+<h4>Prerequisites</h4>
+<ul>
+  <li>Java JDK 8 or higher</li>
+  <li>An IDE like IntelliJ IDEA, Eclipse, or any text editor + terminal</li>
+</ul>
+<h4>Run Instructions</h4>
+<ul>
+  <li>Clone the repo:<br>git clone https://github.com/yourusername/pacman-java.git
+cd pacman-java
+</li>
+</ul>
